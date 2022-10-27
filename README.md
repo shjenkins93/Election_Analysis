@@ -42,7 +42,11 @@ See the full election results below:
 
 # Election-Audit Summary
 This script can be used for any election with select modifications depending on what data needs to be defined. For example, the code can be altered to pull information from the csv file from different rows seen in the code below.
+
 <img width="366" alt="Screen Shot 2022-10-27 at 11 34 56 AM" src="https://user-images.githubusercontent.com/113859036/198334302-fa6165b6-bbf9-4905-8f53-768b7da10c74.png">
+
 Another reason to alter the code depending on the data set is if you want to find a more precise voting percentage. If the election results are very close, you will need to extend the decimal place for a more precise number. This is the code you will need to alter to extend the decimal points on percentages.
+
 <img width="490" alt="Screen Shot 2022-10-27 at 11 45 38 AM" src="https://user-images.githubusercontent.com/113859036/198336918-79469b65-8d92-4d82-ab60-6fa79122bdca.png">
+
 The Vote Percentage ({vote_percentage:.1f) code needs to be altered at the end before the 'f' to extend the decimal place.
